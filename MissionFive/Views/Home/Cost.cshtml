@@ -1,0 +1,22 @@
+﻿@{
+    ViewData["Title"] = "Services";
+}
+<h2>Calculate Your Service Charges</h2>
+<br />
+<p>If you would like more insight as you read your chosen Austen novel, fill out the form below for my cost of services:</p>
+<form>
+    <label>Number of Hours needed:</label>
+    <input type="number" id="hours" min="0" />
+    <br /> <br />
+    <label>Per-Hour Charge</label>
+    <input id="charge" value="$100.00" readonly/>
+    <br /> <br />
+    <input type="button" value="Calculate Total" id="btnTotal" />
+    <br /> <br />
+    <div class="output-box">
+        <p id="result"></p>
+    </div>
+</form>
+
+
+
